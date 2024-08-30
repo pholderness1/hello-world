@@ -3,7 +3,7 @@ export default {
   // site-level options
   title: 'VitePress',
   description: 'Just playing around.',
-  base: "/docs/"
+  base: "/hello-world/"
   themeConfig: {
     // theme-level options
   }
