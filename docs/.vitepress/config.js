@@ -6,5 +6,10 @@ export default {
   base: "/hello-world/",
   themeConfig: {
     // theme-level options
+        nav: [
+      { text: "Home", link: "/" },
+      { text: "NAM", link: "/NAM" },
+      //{ text: "Linux", link: "/linux/service-accounts" },
+    ]
   }
 }
