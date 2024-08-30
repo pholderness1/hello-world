@@ -10,6 +10,25 @@ export default {
       { text: "Home", link: "/" },
       { text: "NAM", link: "/NAM" },
       //{ text: "Linux", link: "/linux/service-accounts" },
-    ]
+    ],
+        sidebar: [
+      {
+        text: "NAM",
+        items: [
+          {
+            text: "SP",
+            items: [
+              {
+                text: "Single Logout",
+                link: "/NAM/SP/SLO",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    search: {
+      provider: "local",
+    },
   }
 }
